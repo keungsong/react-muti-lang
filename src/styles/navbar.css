@@ -1,0 +1,41 @@
+ul{
+    list-style-type: none;
+    background-color: orange;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+   
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: grey;
+}
+ul .lang{
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:  0 25px;
+}
+ul .lang button{
+    margin-left: 10px;
+    padding: 5px 15px;
+}
+
+
+@media screen and (max-width: 600px) {
+    ul li.right, 
+    ul li {float: none;}
+  }
+
+  
